@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.hide{
+  display: none;
+}
+.show{
+  display:flex
+}
+.container{
+  height: 100vh;
+  display: grid;
+  grid-template-rows: max-content 50% 50%;
+}
+.landing-img{
+  display: block;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  z-index: -100;
+}
+.landing-grid-container{
+  position: relative;
+
+}
+.landing-link{
+  color: white;
+  text-decoration: none;
+  padding: 1em 4em;
+  background-color: #3F51B5;
+  position: absolute;
+  top:80%;
+  left:50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+.landing-link2{
+  color: white;
+  text-decoration: none;
+  padding: 1em 4em;
+  background-color: #3F51B5;
+  position: absolute;
+  top:90%;
+  left:50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+.market-card{
+  text-align: center;
+  font-size: 32px;
+  width:30%;
+  margin: 30px 30px;
+}
+.marketing-header{
+  margin-top:20%;
+  color:white;
+  text-align: center;
+  font-weight: 400;
+  font-size: 3.5em;
+}
+.button-div{
+  text-align: center;
+  margin-top: 10%;
+  height: 5%;
+  width:100%;
+}
+.footer-marketing{
+  height:4rem;
+  background: black;
+  color:white;
+  margin-top:20vw;
+  width:100%;
+  text-align: center;
+}
+.button-style1{
+  background:white;
+  color:#F5945B;
+  border: 2px solid #F5945B;
+  border-radius:5px;
+  padding:15px 150px;
+  font-size:1.5em;
+  text-decoration:none;
+  font-weight:500;
+}
+.button-style{
+  background:#F5945B;
+  color:#21242C;
+  border: 2px solid #F5945B;
+  border-radius:5px;
+  padding:15px 150px;
+  font-size:1.5em;
+  text-decoration:none;
+  font-weight:500;
+}
+.marketing-img{
+  width:60vw;
+  height: auto;
+  background:black;
+}
+/*Marketing Media */
+@media(max-width: 1500px){
+  .marketing-header{
+    margin-top: 25%;
+    font-size: 2em;
+  }
+  .footer-marketing{
+    margin-top: 50vw;
+  }
+  
+
+}
+@media(max-width:1000px){
+  .marketing-header{
+    margin-top:45%;
+    margin-left:5%;
+    font-size: 1.7em;
+    
+  }
+  .button-style1{
+    padding:10px 100px;
+    
+  }
+  .button-style{
+    padding:10px 98px;
+    
+  }
+  .footer-marketing{
+    margin-top: 80vw;
+  }
+}
+@media(max-width:700px){
+  .marketing-img{
+    width:90vw;
+  }
+  .footer-marketing{
+    margin-top: 180vw;
+  }
+}
+@media(max-width:500px){
+  .marketing-img{
+    width: 120vw;
+    margin:0;
+  }
+}

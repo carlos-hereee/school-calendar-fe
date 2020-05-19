@@ -1,0 +1,16 @@
+.footer-wrapper{
+    padding: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left; 
+}
+.footer-summary{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 45%;
+}
+.footer-links{
+    width: 45%
+}

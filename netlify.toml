@@ -1,0 +1,9 @@
+[build]
+command = "npm run build"
+base="/school-cal"
+publish="/build"
+
+[[redirects]]
+from="/*"
+to="/"
+status=200

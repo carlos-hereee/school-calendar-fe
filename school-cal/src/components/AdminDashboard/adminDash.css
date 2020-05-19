@@ -1,0 +1,11 @@
+.greeting{
+    margin-top:75px
+}
+.calendars{
+    border: 3px solid purple;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1%;
+    height: auto;
+}
